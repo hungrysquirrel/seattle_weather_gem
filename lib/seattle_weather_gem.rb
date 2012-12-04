@@ -7,5 +7,7 @@ class SeattleWeather
 
     temperature_data = data['list'].first
     the_temp = temperature_data['main'].fetch("temp")
+
+    puts "Seattle's current temperature is #{the_temp}"
   end
 end
