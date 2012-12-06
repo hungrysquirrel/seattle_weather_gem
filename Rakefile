@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "seattle_weather_gem"
   gem.homepage = "http://github.com/hungrysquirrel/seattle_weather_gem"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{The Seattle Weather Gem will tell you the current temperature.}
+  gem.description = %Q{The Seattle Weather Gem uses data from the OpenWeatherMapAPI to retrieve the current temperature for Seattle and convert it from Kelvin to Fehrenheit.}
   gem.email = "josh@estately.com"
   gem.authors = ["Josh Rubinstein"]
   # dependencies defined in Gemfile
