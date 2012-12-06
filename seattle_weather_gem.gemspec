@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "lib/seattle_weather_gem.rb",
+    "seattle_weather_gem.gemspec",
     "spec/seattle_weather_gem_spec.rb",
     "spec/spec_helper.rb"
   ]
