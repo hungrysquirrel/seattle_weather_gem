@@ -10,7 +10,7 @@ class SeattleWeather
 
     def kelvin_to_fahrenheit
       kelvin_temp = data_feed['main'].fetch("temp")
-      fahrenheit_temp = (((kelvin_temp - 273) * 1.8 ) + 32).round
+      (((kelvin_temp - 273) * 1.8 ) + 32).round
     end
 
     def seattle_current_temp
