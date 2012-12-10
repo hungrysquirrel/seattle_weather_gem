@@ -8,13 +8,13 @@ class SeattleWeather
       current_weather = data['list'].first
     end
 
-    def kelvin_to_fahrenheit
-      kelvin_temp = data_feed['main'].fetch("temp")
+    def kelvin_to_fahrenheit(kelvin_temp)
       (((kelvin_temp - 273) * 1.8 ) + 32).round
     end
 
-    def seattle_current_temp
-      puts "Seattle's current temperature is #{kelvin_to_fahrenheit} degrees Fahrenheit"
+    def current_temp
+      kelvin_temp = data_feed['main'].fetch("temp")
+      puts "Seattle's current temperature is #{kelvin_to_fahrenheit(kelvin_temp)} degrees Fahrenheit"
     end
 
 end
