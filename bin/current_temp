@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require_relative 'seattle_weather'
+require 'seattle_weather'
 
 puts SeattleWeather.new.current_temp
