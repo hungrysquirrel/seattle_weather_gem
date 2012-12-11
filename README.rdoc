@@ -1,6 +1,6 @@
 = seattle_weather_gem
 
-Description goes here.
+The Seattle Weather Gem takes data from the Open Weather Map api and tells the installer of the gem the current temperature for Seattle. The temperature is converted by the gem from Kelvin to Fahrenheit for improved user experience.
 
 == Contributing to seattle_weather_gem
  
