@@ -5,13 +5,14 @@
 
 Gem::Specification.new do |s|
   s.name = "seattle_weather_gem"
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Josh Rubinstein"]
-  s.date = "2012-12-06"
+  s.date = "2012-12-11"
   s.description = "The Seattle Weather Gem uses data from the OpenWeatherMapAPI to retrieve the current temperature for Seattle and convert it from Kelvin to Fehrenheit."
   s.email = "josh@estately.com"
+  s.executables = ["current_temp"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -25,6 +26,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "bin/current_temp",
     "lib/seattle_weather_gem.rb",
     "seattle_weather_gem.gemspec",
     "spec/seattle_weather_gem_spec.rb",
