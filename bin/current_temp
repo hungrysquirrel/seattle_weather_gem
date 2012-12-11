@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require_relative 'lib/seattle_weather_gem.rb'
+require_relative 'seattle_weather'
 
-SeattleWeather.new.current_temp
+puts SeattleWeather.new.current_temp
