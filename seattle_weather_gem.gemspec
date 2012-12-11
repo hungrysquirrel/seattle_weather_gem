@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "seattle_weather_gem"
-  s.version = "0.4.0"
+  s.version = "0.5.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Josh Rubinstein"]
@@ -30,7 +30,8 @@ Gem::Specification.new do |s|
     "lib/seattle_weather_gem.rb",
     "seattle_weather_gem.gemspec",
     "spec/seattle_weather_gem_spec.rb",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "travis.yml"
   ]
   s.homepage = "http://github.com/hungrysquirrel/seattle_weather_gem"
   s.licenses = ["MIT"]
