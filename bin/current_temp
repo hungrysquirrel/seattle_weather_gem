@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require 'seattle_weather'
+require 'seattle_weather_gem'
 
 puts SeattleWeather.new.current_temp
