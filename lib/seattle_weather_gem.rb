@@ -14,7 +14,7 @@ class SeattleWeather
 
     def current_temp
       kelvin_temp = data_feed['main'].fetch("temp")
-      puts "Seattle's current temperature is #{kelvin_to_fahrenheit(kelvin_temp)} degrees Fahrenheit"
+      return "Seattle's current temperature is #{kelvin_to_fahrenheit(kelvin_temp)} degrees Fahrenheit"
     end
 
 end
